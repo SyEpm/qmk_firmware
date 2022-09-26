@@ -280,8 +280,8 @@ layer_state_t layer_state_set_user(layer_state_t state) {
                     return false;
                 case MCR_JSIL:
                     if (get_highest_layer(layer_state) == _MACROS2)
-                        SEND_STRING("Jorge Silveira CI ");
-                    SEND_STRING("37395117");
+                        SEND_STRING(" ");
+                    SEND_STRING(" ");
                     return false;
                 case MCR_ALVE:
                     if (get_highest_layer(layer_state) == _MACROS2)
@@ -305,8 +305,8 @@ layer_state_t layer_state_set_user(layer_state_t state) {
                     return false;
                 case MCR_ALVA:
                     if (get_highest_layer(layer_state) == _MACROS2)
-                        SEND_STRING("Renzo Alvarez CI ");
-                    SEND_STRING("36966505");
+                        SEND_STRING(" ");
+                    SEND_STRING(" ");
                     return false;
                 case MCR_CEBE:
                     if (get_highest_layer(layer_state) == _MACROS2)
